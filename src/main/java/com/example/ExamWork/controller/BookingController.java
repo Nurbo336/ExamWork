@@ -1,4 +1,4 @@
-package controller;
+package com.example.ExamWork.controller;
 
 import com.example.ExamWork.entity.Booking;
 import com.example.ExamWork.service.BookingService;
