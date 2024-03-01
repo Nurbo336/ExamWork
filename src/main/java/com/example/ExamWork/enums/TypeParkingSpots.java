@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum TypeParkingPlace {
+public enum TypeParkingSpots {
     STANDART("Стандартное"),
     DISABLED("Инвалидное"),
     FAMILIES("Семейное"),
