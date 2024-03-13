@@ -17,6 +17,7 @@ public class Booking {
     private Long id;
     @Enumerated(value = EnumType.STRING)
     private ParkingStatus status;
+    @Enumerated(value = EnumType.STRING)
     private TypeParkingSpots typeParkingSpots;
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "parking_id")
